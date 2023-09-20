@@ -1,0 +1,76 @@
+.main {
+    height: 100vh;
+}
+body {
+    background-color: #f0F0F0;
+
+}
+.navbar{
+    background-color: #7091F5;
+    height: 60px;
+
+}
+
+.navbar-brand {
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+.sidebar {
+    background: #ffffff;
+
+
+}
+
+.sidebar a {
+    color: black;
+    text-transform: capitalize;
+    text-overflow: initial;
+    text-decoration: solid;
+    display: block;
+    padding: 24px 32px;
+}
+
+.sidebar a:hover {
+    background: #82A0D8;
+    transition: all 0.4s;
+}
+
+.active {
+    background: #EEEEEE;
+    border-right: solid 7px #272727;
+}
+
+.card-data {
+    border: solid 1px;
+    padding: 24px 48px;
+    color: white;
+
+}
+
+.card-data.book {
+    background-color: #b80505;
+}
+
+.card-data.category {
+    background-color: #05b83b;
+}
+
+.card-data.user {
+    background-color: #929094;
+}
+
+.card-data ion-icon {
+    font-size: 88px;
+}
+
+.card-name {
+    font-size: 28px;
+}
+
+.card-no {
+    font-size: 28px;
+}
